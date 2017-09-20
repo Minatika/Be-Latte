@@ -1,0 +1,23 @@
+.social-link {
+  margin-right: 28px;
+  margin-left: 0;
+  font-size: 0;
+  text-align: center;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.social-link__icon {
+  fill: @color-main;
+}
+
+.social-link:hover .social-link__icon {
+  fill: @color-secondary;
+}
+
+.social-link:active .social-link__icon {
+  fill: @color-secondary;
+  opacity: 0.5;
+}
