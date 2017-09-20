@@ -1,0 +1,36 @@
+.btn {
+  display: block;
+  width: 181px;
+  padding: 13px 0;
+  font-size: 13px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: @color-main;
+  border: 2px solid @color-main;
+
+  &--welcome {
+    margin-left: 3px;
+  }
+
+  &--menu {
+    width: 228px;
+    margin: 0 auto;
+    color: @color-text;
+    border-color: @color-text;
+  }
+
+  &:hover {
+    color: @color-secondary;
+    border-color: @color-secondary;
+    background-color: @color-dark;
+  }
+
+  &:active {
+    color: @color-secondary;
+    border-color: @color-secondary;
+    background-color: @color-dark;
+    opacity: 0.5;
+  }
+}

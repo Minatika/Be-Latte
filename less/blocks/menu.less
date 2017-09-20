@@ -1,0 +1,65 @@
+.menu {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1270px;
+  margin: 0 auto;
+  padding-top: 75px;
+
+  &::after {
+    content: url("../img/cup-icon.svg");
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 39px;
+    height: 39px;
+    margin-left: -19px;
+  }
+}
+
+.menu__title {
+  width: 100%;
+  margin: 0 0 56px;
+  font-size: 32px;
+  line-height: 32px;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: @color-text--title;
+}
+
+.menu__section {
+  position: relative;
+  width: 396px;
+}
+
+.menu__section-name {
+  position: absolute;
+  top: 126px;
+  left: 0;
+  display: block;
+  width: 396px;
+  margin: 0;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: @color-black;
+}
+
+.menu__list {
+  margin: 29px 0 0 80px;
+}
+
+.menu__item-name {
+  width: 188px;
+  font-weight: 800;
+}
+
+.menu__btn {
+  width: 100%;
+  margin: 51px 0 111px;
+}

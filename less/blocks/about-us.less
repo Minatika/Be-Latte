@@ -1,0 +1,40 @@
+.about-us {
+  position: relative;
+  width: 1270px;
+  min-height: 343px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 95px 250px 0;
+
+  &::after {
+    content: url("../img/cup-icon.svg");
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 39px;
+    height: 39px;
+    margin-left: -19px;
+  }
+}
+
+.about-us__title {
+  margin: 0 0 30px;
+  padding-left: 21px;
+  font-size: 32px;
+  line-height: 32px;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: @color-text--title;
+
+  &--bold {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+}
+
+.about-us__desc {
+  margin: 0;
+  text-align: center;
+}

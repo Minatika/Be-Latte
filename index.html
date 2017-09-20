@@ -6,7 +6,191 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Be-Latte</title>
 </head>
-<body>
-
+<body class="page">
+  <header class="page-header">
+    <h1 class="visually-hidden">Be-Latte</h1>
+    <div class="page-header__logo">
+      <img src="img/logo.png" width="154" height="127" alt="logo">
+    </div>
+    <nav class="main-nav">
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--current"><a>Home</a></li>
+          <li class="main-nav__item"><a href="about.html">About us</a></li>
+          <li class="main-nav__item"><a href="menu.html">Menu</a></li>
+          <li class="main-nav__item"><a href="blog.html">Blog</a></li>
+          <li class="main-nav__item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="welcome">
+      <h2 class="welcome__title">Welcome to Be Latte</h2>
+      <p class="welcome__desc">Enjoy of a fresh new approach to coffee. Proin gravida nibh vel velit. Auctor aliquet sollicitudin lorem quis.</p>
+      <a href="" class="btn btn--welcome">See menu</a>
+    </div>
+  </header>
+  <main>
+    <section class="about-us">
+      <h2 class="about-us__title">Coffee never tasted <span class="about-us__title--bold">so good</span>!</h2>
+      <p class="about-us__desc">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+    </section>
+    <section class="menu">
+      <h2 class="menu__title">Menu</h2>
+      <div class="menu__section">
+        <img src="img/coffee.jpg" width="396" height="294" alt="coffee">
+        <p class="menu__section-name">Coffee</p>
+        <table class="menu__list">
+          <tr class="menu__item">
+            <td class="menu__item-name">Latte</td>
+            <td class="menu__item-price">$3.00</td>
+          </tr>
+          <tr class="menu__item">
+            <td class="menu__item-name">Mocha</td>
+            <td class="menu__item-price">$3.25</td>
+          </tr>
+          <tr class="menu__item">
+            <td class="menu__item-name">Expresso</td>
+            <td class="menu__item-price">$3.75</td>
+          </tr>
+          <tr class="menu__item">
+            <td class="menu__item-name">Capuccino</td>
+            <td class="menu__item-price">$3.00</td>
+          </tr>
+        </table>
+      </div>
+      <div class="menu__section">
+        <img src="img/tea.jpg" width="396" height="294" alt="coffee">
+        <p class="menu__section-name">Tea</p>
+        <table class="menu__list">
+          <tr class="menu__item">
+            <td class="menu__item-name">Iced tea</td>
+            <td class="menu__item-price">$2.75</td>
+          </tr>
+          <tr class="menu__item">
+            <td class="menu__item-name">Cold brew</td>
+            <td class="menu__item-price">$3.25</td>
+          </tr>
+          <tr class="menu__item">
+            <td class="menu__item-name">Jasmine green</td>
+            <td class="menu__item-price">$3.75</td>
+          </tr>
+          <tr class="menu__item">
+            <td class="menu__item-name">Peppermint Herbal</td>
+            <td class="menu__item-price">$3.00</td>
+          </tr>
+        </table>
+      </div>
+      <div class="menu__section">
+        <img src="img/desserts.jpg" width="396" height="294" alt="coffee">
+        <p class="menu__section-name">Desserts</p>
+        <table class="menu__list">
+          <tr class="menu__item">
+            <td class="menu__item-name">Tiramisu</td>
+            <td class="menu__item-price">$3.00</td>
+          </tr>
+          <tr class="menu__item">
+            <td class="menu__item-name">Cheese cake</td>
+            <td class="menu__item-price">$3.25</td>
+          </tr>
+          <tr class="menu__item">
+            <td class="menu__item-name">Black forest</td>
+            <td class="menu__item-price">$3.75</td>
+          </tr>
+          <tr class="menu__item">
+            <td class="menu__item-name">Brownie</td>
+            <td class="menu__item-price">$3.00</td>
+          </tr>
+        </table>
+      </div>
+      <div class="menu__btn">
+        <a href="" class="btn btn--menu">See full menu</a>
+      </div>
+    </section>
+    <section class="reviews slider">
+      <h2 class="reviews__title">Testimonials</h2>
+      <div class="reviews__img">
+        <img src="img/coffee-photo.jpg" width="812" height="425" alt="coffee-photo">
+      </div>
+      <input class="slider__input" type="radio" name="reviews" id="reviews-input-1" checked>
+      <input class="slider__input" type="radio" name="reviews" id="reviews-input-2">
+      <input class="slider__input" type="radio" name="reviews" id="reviews-input-3">
+      <div class="reviews__list slider__list">
+        <blockquote class="reviews__item slider__item">
+          <div class="reviews__author-avatar">
+            <img src="img/pic-Parker.jpg" alt="Photo of Parker">
+          </div>
+          <cite class="reviews__author-name">Chris Parker</cite>
+          <p class="reviews__text">Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet&#160;nibh vulputate cursus a sit amet mauris accumsan.</p>
+        </blockquote>
+        <blockquote class="reviews__item slider__item">
+          <div class="reviews__author-avatar">
+            <img src="img/pic-Bergher.jpg" alt="Photo of Bergher">
+          </div>
+          <cite class="reviews__author-name">Bruno Bergher</cite>
+          <p class="reviews__text">Great coffee and service love the outside seating. Salmon club is amazing and the bread too! Parking is good but busy on weekends.</p>
+        </blockquote>
+        <blockquote class="reviews__item slider__item">
+          <div class="reviews__author-avatar">
+            <img src="img/pic-Reyes.jpg" alt="Photo of Reyes">
+          </div>
+          <cite class="reviews__author-name">Henry Reyes</cite>
+          <p class="reviews__text">Always great service here and lots good food options. Was in earlier today for Americano and honey hot drink. Just right, as usual. Same good coffee and service here this morning.</p>
+        </blockquote>
+      </div>
+      <div class="reviews__toggles slider__toggles">
+        <label class="reviews__toggle slider__toggle" for="reviews-input-1" ></label>
+        <label class="reviews__toggle slider__toggle" for="reviews-input-2"></label>
+        <label class="reviews__toggle slider__toggle" for="reviews-input-3"></label>
+      </div>
+    </section>
+    <section class="location">
+      <h2 class="location__title">Location</h2>
+      <div class="location__text">
+        <h3 class="location__subtitle">Location</h3>
+        <p class="location__desc">Visit us at St. Thomas street 21st, suite 110, Santa Monica, California.</p>
+        <h3 class="location__subtitle">Hours</h3>
+        <table class="location__schedule-list">
+          <tr class="location__schedule-row">
+            <td class="location__schedule-day">Mon - Sat:</td>
+            <td class="location__schedule-time">7am - 8pm</td>
+          </tr>
+          <tr class="location__schedule-row">
+            <td class="location__schedule-day">Sunday:</td>
+            <td class="location__schedule-time">7am - 5pm</td>
+          </tr>
+        </table>
+        <h3 class="location__subtitle">Happy hour</h3>
+        <table class="location__schedule-list">
+          <tr class="location__schedule-row">
+            <td class="location__schedule-day">Mon - Fri:</td>
+            <td class="location__schedule-time">4pm - 6pm</td>
+          </tr>
+        </table>
+      </div>
+      <div id="map" class="map"></div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <p class="page-footer__social">
+        <a class="social-link" href="https://www.facebook.com/">We in Facebook
+          <svg xmlns="http://www.w3.org/2000/svg" width="13.594" height="26" viewBox="0 0 13.594 26">
+            <path class="social-link__icon" id="facebook-icon"  d="M603.607,3285.18a31.44,31.44,0,0,0-3.587-.19c-3.555,0-5.993,2.16-5.993,6.11v3.41h-4.011v4.62h4.011v11.86h4.813v-11.86h4l0.613-4.62H598.84v-2.95c0-1.33.362-2.25,2.3-2.25h2.47v-4.13Z" transform="translate(-590 -3285)"/>
+          </svg>
+        </a>
+        <a class="social-link" href="https://twitter.com/" >We in Twitter
+          <svg xmlns="http://www.w3.org/2000/svg" width="24.781" height="20" viewBox="0 0 24.781 20">
+            <path class="social-link__icon" id="twitter-icon" d="M657.723,3291.37a10.275,10.275,0,0,1-2.925.78,5.057,5.057,0,0,0,2.233-2.78,10.028,10.028,0,0,1-3.224,1.22,5.089,5.089,0,0,0-8.794,3.45,5.715,5.715,0,0,0,.126,1.16,14.459,14.459,0,0,1-10.476-5.29,5.03,5.03,0,0,0,1.573,6.75,5.063,5.063,0,0,1-2.3-.64v0.07a5.056,5.056,0,0,0,4.074,4.95,5.378,5.378,0,0,1-1.337.17,6.066,6.066,0,0,1-.96-0.08,5.09,5.09,0,0,0,4.751,3.5,10.219,10.219,0,0,1-6.308,2.16c-0.425,0-.818-0.02-1.227-0.06a14.491,14.491,0,0,0,7.8,2.26,14.308,14.308,0,0,0,14.456-14.36c0-.22,0-0.43-0.016-0.65A10.905,10.905,0,0,0,657.723,3291.37Z" transform="translate(-632.938 -3289)"/>
+          </svg>
+        </a>
+        <a class="social-link" href="https://www.instagram.com/">We in Instagram
+          <svg xmlns="http://www.w3.org/2000/svg" width="24.156" height="24" viewBox="0 0 24.156 24">
+            <path class="social-link__icon" id="Instagram-icon" d="M708.256,3307.27a0.949,0.949,0,0,1-.96.95H690.48a0.948,0.948,0,0,1-.959-0.95v-10.12h2.218a6.746,6.746,0,0,0-.315,2.04,7.517,7.517,0,0,0,15.023,0,6.746,6.746,0,0,0-.315-2.04h2.124v10.12Zm-4.468-8.33a4.856,4.856,0,1,1-4.86-4.67A4.772,4.772,0,0,1,703.788,3298.94Zm4.468-5.62a1.088,1.088,0,0,1-1.085,1.08h-2.738a1.088,1.088,0,0,1-1.085-1.08v-2.58a1.088,1.088,0,0,1,1.085-1.08h2.738a1.088,1.088,0,0,1,1.085,1.08v2.58Zm2.737-3.25a3.1,3.1,0,0,0-3.1-3.08H689.93a3.1,3.1,0,0,0-3.1,3.08v17.84a3.1,3.1,0,0,0,3.1,3.08h17.964a3.1,3.1,0,0,0,3.1-3.08v-17.84Z" transform="translate(-686.844 -3287)"/>
+          </svg>
+        </a>
+      </p>
+      <p class="page-footer__address">St. Thomas street 21st, Suite 110, Santa Monica, California</p>
+    </div>
+  </footer>
 </body>
 </html>
